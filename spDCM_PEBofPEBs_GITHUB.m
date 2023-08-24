@@ -58,7 +58,7 @@ for subIdx = 1:numSub
     M.Q     = 'single';
     % Specify design matrix for N subjects. It should start with a constant column
     M.X = [1 1 0;1 0 0;1 0 1]; 
-    M.Xnames = {'group', 'brom_vs_plac', 'tolc_vs_plac', 'brom_vs_tolc'}; 
+    M.Xnames = {'group', 'brom_vs_plac', 'tolc_vs_plac'}; 
     
 
     % Choose field
